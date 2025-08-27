@@ -1,44 +1,79 @@
 <!doctype html>
 <html lang="pt-br">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Netflix Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
 
-  <body style="background-color: black;">
-    <img src="images/logo-netflix.jpg" alt="" style="max-width: 200px;">
+<body style="background-color: black;">
 
-    <div class="row">
-        <div class="col-lg-3">
-            <div class="card">
-                <img src="images/cartaz-vingadores.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                     <h5 class="card-title">Vingadores</h5>
-                    <a href="vingadores.html" class="btn btn-danger">Detalhes</a>
-                    <a href="https://www.youtube.com/watch?v=t_ULBP6V9bg" class="btn btn-danger" target="_blank">Trailer</a>
-                </div>
-            </div>
-     </div>
-</div>
+  <!-- Cabeçalho -->
+  <nav class="navbar navbar-dark bg-black">
+    <div class="container">
+      <a href="index.html">
+        <img src="images/logo-netflix.jpg" alt="Netflix" style="max-width: 150px;">
+      </a>
+    </div>
+  </nav>
 
-    <div class="row">
-        <div class="col-lg-3">
-            <div class="card">
-                <img src="images/cartaz-vingadores.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                     <h5 class="card-title">Vingadores</h5>
-                    <a href="vingadores.html" class="btn btn-danger">Detalhes</a>
-                    <a href="https://www.youtube.com/watch?v=t_ULBP6V9bg" class="btn btn-danger" target="_blank">Trailer</a>
-                </div>
-            </div>
-     </div>
-</div>
+  <!-- Filmes -->
+  <div class="container my-5">
+    <div class="row g-4">
 
+      <!-- Filme 1 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card bg-dark text-white">
+          <img src="images/cartaz-vingadores.jpg" class="card-img-top" alt="Vingadores">
+          <div class="card-body">
+            <h5 class="card-title">Vingadores</h5>
+            <a href="vingadores.html" class="btn btn-danger btn-sm">Detalhes</a>
+            <a href="https://www.youtube.com/watch?v=t_ULBP6V9bg" class="btn btn-outline-light btn-sm" target="_blank">Trailer</a>
+          </div>
+        </div>
+      </div>
 
+      <!-- Filme 2 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card bg-dark text-white">
+          <img src="images/cartaz-homemAranha.jpeg" class="card-img-top" alt="Homem-Aranha">
+          <div class="card-body">
+            <h5 class="card-title">Homem-Aranha</h5>
+            <a href="homemaranha.html" class="btn btn-danger btn-sm">Detalhes</a>
+            <a href="https://www.youtube.com/watch?v=bHzGeci_8wc" class="btn btn-outline-light btn-sm" target="_blank">Trailer</a>
+          </div>
+        </div>
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+      <!-- Filme 3 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card bg-dark text-white">
+          <img src="images/cartaz-batman.jpeg" class="card-img-top" alt="Batman">
+          <div class="card-body">
+            <h5 class="card-title">Batman</h5>
+            <a href="batman.html" class="btn btn-danger btn-sm">Detalhes</a>
+            <a href="https://www.youtube.com/watch?v=HJv4LQxbVEA" class="btn btn-outline-light btn-sm" target="_blank">Trailer</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Filme 4 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card bg-dark text-white">
+          <img src="images/cartaz-jurassicPark.jpeg" class="card-img-top" alt="Jurassic Park">
+          <div class="card-body">
+            <h5 class="card-title">Jurassic Park</h5>
+            <a href="jurassic.html" class="btn btn-danger btn-sm">Detalhes</a>
+            <a href="https://www.youtube.com/watch?v=ccuMLmZRd5g" class="btn btn-outline-light btn-sm" target="_blank">Trailer</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
 </html>
